@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaChevronRight } from 'react-icons/fa';
-// import featureImage from '../assets/feature-image.png'; // Replace with your image path
+import opd from '../../assets/OPD.png'
 
 const CareFeatures = () => {
     const features = [
@@ -49,7 +49,7 @@ const CareFeatures = () => {
                     </div>
                 
                     <div className="w-full md:w-3/4 bg-[#E6EDFF]">
-                        <img src="../../src/assets/OPD.png" alt="Feature Image" className="w-full h-auto" />
+                        <img src={opd} alt="Feature Image" className="w-full h-auto" />
                     </div>
                 
                 </div>

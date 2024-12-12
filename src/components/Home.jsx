@@ -9,7 +9,7 @@ import button1 from '../assets/button1.png'
 import button2 from '../assets/button2.png'
 import button3 from '../assets/button3.png'
 import button4 from '../assets/button4.png'
-
+import pro12 from '../assets/12pro.png'
 
 function Home() {
   return (
@@ -23,7 +23,7 @@ function Home() {
       <section className="container mx-auto p-8">
         <div className="flex justify-center">
           <div className="relative w-full max-w-4xl">
-            <img src="../../src/assets/12pro.png" alt="Phone Mockup" className="w-full" />
+            <img src={pro12} alt="Phone Mockup" className="w-full" />
             <div className="absolute top-1/4 left-16 md:left-20  transform md:-translate-x-0 -translate-x-1/2">
             <img src={button3} alt='btn' className='md:w-[180px] w-[120px] hover:scale-105'/>
            

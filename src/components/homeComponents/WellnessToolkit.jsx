@@ -42,7 +42,7 @@ const WellnessToolkit = () => {
         <p className='text-blue-500 font-semibold text-center'>IN APP FEATURES</p>
         <h2 className="text-3xl font-semibold text-center text-gray-800 mb-8">Our Wellness Toolkit</h2>
         <div className="flex flex-col md:flex-row  items-center justify-center ">
-          <div className="w-full  md:pr-8 mb-8 md:mb-0 md:left-[70px] top[-30px] absolute z-10">
+          <div className="  md:pr-8 mb-8 md:mb-0 md:left-[70px] top[-30px] absolute z-10">
             <div className="flex flex-col  gap-4 ">
               <button className='bg-[#FFB489] text-sm rounded-full flex gap-1 p-3 w-fit'> <FaPills className=" text-xl" />Medicines Reminders</button>
               <div className='flex gap-5'>
