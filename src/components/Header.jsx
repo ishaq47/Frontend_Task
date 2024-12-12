@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link, useLocation } from 'react-router-dom';
 import menu from '../assets/menu.png';
 import search from '../assets/search.png';
-
+import Logo from '../assets/Logo.png';
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -19,7 +19,7 @@ function Header() {
       <nav className="bg-white p-4 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center gap-24">
-            <img src="../src/assets/Logo.png" alt="WellNest Logo" className="h-8 mr-4" />
+            <img src={Logo} alt="WellNest Logo" className="h-8 mr-4" />
             <ul className="hidden md:flex font-semibold md:flex-row flex-col">
               <li className="mr-6 mb-2 md:mb-0">
                 <Link 
